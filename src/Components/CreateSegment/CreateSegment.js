@@ -9,7 +9,7 @@ const CreateSegment = () => {
   const [selectedSchemas, setSelectedSchemas] = useState([]);
   const [newSchema, setNewSchema] = useState('');
   const [newDropdownSchemas, setNewDropdownSchemas] = useState([]);
-  const [webhookUrl, setWebhookUrl] = useState('https://webhook.site/48c6ff65-fb4f-4394-b652-641483d5a02f');
+  const [webhookUrl, setWebhookUrl] = useState('https://webhook.site/5929f67e-6657-4efb-92d3-6c55bcaae714');
   const availableSchema = [
     { label: 'First Name', value: 'first_name' },
     { label: 'Last Name', value: 'last_name' },
